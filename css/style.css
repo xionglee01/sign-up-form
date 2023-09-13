@@ -10,6 +10,27 @@ body
     font-family: 'Oswald', sans-serif;
 }
 
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+h1
+{
+    margin: 0;
+}
+
+.logo_container
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
 #left
 {
     width: 35vw;
@@ -30,13 +51,6 @@ label
     display: block;
     line-height: 2em;
 }
-
-form
-{
-    display: flex;
-    gap: 50px;
-}
-
 input
 {
     height: 1.5rem;
@@ -52,19 +66,42 @@ input:focus
     border-radius: 3px;
 }
 
-.container div
+
+form
 {
-    margin-bottom: 20px;
+    width: 100%;
 }
 
-fieldset
+
+.container
 {
-    border: none;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.089);
     padding: 0 0 10px 50px;
     background-color: white;
 }
 
+#error
+{
+    margin: 0;
+    font-size: 12px;
+    color: red;
+}
+
+.sub_container
+{
+    width: 800px;
+}
+
+.sub_container div
+{
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-right: 60px;
+}
+.sub_container h2
+{
+    padding-top: 20px;
+}
 .top p
 {
     font-size: 2rem;
@@ -92,6 +129,13 @@ button
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.089);
+    font-family: 'Oswald', sans-serif;
+}
+
+button:hover
+{
+    background-color: #f89359;
+    transition: 0.5s;
 }
 
 .bottom
@@ -116,3 +160,5 @@ button
     text-align: center;
     color: white;
 }
+
+
